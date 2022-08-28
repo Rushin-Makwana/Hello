@@ -2,7 +2,10 @@
     <head>
         <title>Rushin - Portfolio</title>
         <link href="profile.ico" rel="icon">   
-        <link href="styles.css" rel="stylesheet" type="text/css">   
+        <link href="styles.css" rel="stylesheet" type="text/css">  
+        <link href="download/style.scss" rel="stylesheet" type="text/css">  
+        
+        <link href="download/style.css" rel="stylesheet" type="text/css">   
       <script src="script.js"></script>
      
 
@@ -30,11 +33,12 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link about" href="#about">ABOUT</a>
-        </li>
+        
         <li class="nav-item ">
             <a class="nav-link skills" href="#skills">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about" href="#work">EXPERIENCE</a>
           </li>
         <li class="nav-item ">
           <a class="nav-link worknav" href="#project">PROJECTS</a>
@@ -110,16 +114,127 @@
         </a>
     </div>    
 </div>
+
+<div class="rowWork" id="work">
+  <div class="col-md-12 col-md-offset-0">
+    <ul class="timeline">
+      <li class="timeline-heading text-center animate-box fadeInUp animated-fast">
+        <div><h3>Work Experience</h3></div>
+      </li>
+      <li class="timeline-inverted animate-box fadeInUp animated-fast">
+        <div class="timeline-badge"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3 class="timeline-title">Software Developmer (full-time)</h3>
+            <span class="company">Aakash Informatics: Jul 2022 - Present</span>
+          </div>
+          <div class="timeline-body">
+            <p><ul>
+            <li>Develop Software Applications by implementing languages and frameworks like C#, JavaScript, TypeScript, HTML, CSS, ASP .NET, Node.js and Angular.</li>
+          <li>Currently involved in building Web Application for the US based health and fitness company, Fitness SF. </li> <li>Worked on integrating Hubspot CRM with the PostgreSQL database in order to achieve two-way data sync between these two entities. Solely built logic to fetch all the newly created or recently modified contacts, tickets, and deals from Hubspot through Hubspot APIs and insert them into the database. </li><li>Created APIs to fetch recently inserted contacts in PostgreSQL and post them to Hubspot using Hubspot's POST API.</li><li>
+          Made webhooks for our internal Git server, to notify all the team members whenever the final code is pushed and merged to the main branch.</li><li> Made numerous APIs to GET, POST and UPDATE various user information for the Fitness SF project. </li>
+            <li>
+          Adopted Agile methodologies and ensured efficient team collaboration using tools: Slack, JIRA, Azure DevOps.</li></p></ul>
+          </div>
+       
+      </li>						
+      <li class="animate-box timeline-unverted fadeInUp animated-fast">
+        <div class="timeline-badge"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3 class="timeline-title">Software Developer - Intern</h3>
+            <span class="company">Aakash Informatics: Feb 2022 - Jun 2022</span>
+          </div>
+          <div class="timeline-body">
+            <p><ul>
+              <li>Made a scheduler for the Fitness SF (live project), using ASP.NET Core, that automatically sends an email at the end of every month to all their clients, showing all the new updates and events of the month.
+               Also, created APIs for the login, sign-up, and admin panel.
+              </li><li>
+              Built proficiency in web development, source management and creating clean API design. 
+              Got hands on working experience with web development framework - Angular and became proficient with database technology such as PostgreSQL and MySql.  
+        </li>            <li>  Mastered the skill of debugging, bug fixing and performance testing.</li>
+          <li>  Made a small-scaled web application - Inventory Management System using ASP.NET and a Dating App using Angular during the first month of the internship, to gain deep understanding of overall software development paradigm. </li> </ul></p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted animate-box fadeInUp animated-fast">
+        <div class="timeline-badge"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3 class="timeline-title">Full Stack Web Development Intern</h3>
+            <span class="company">Aesthetifi Inc. Jul 2021 - Jan 2022</span>
+          </div>
+          <div class="timeline-body">
+            <p><ul><li>Brainstormed and developed high impact features such as displaying the various data in form of line chart / bar graph and building high quality components with smooth transitions and animations. 
+              <li>Built the back-end of various websites using technologies - Node.js and Express as well as managed the database through MongoDB.</li>
+            </li><li>
+           Worked on Front-End of the Company’s Internal Tools such as HR Management System (HRMS) and Attendance/Payroll System. Improved the HRMS system’s page load time by 17%.</li>
+            </ul>
+
+            </p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <br><br>
+
+    <ul class="timeline">						
+      <li class="timeline-heading text-center animate-box fadeInUp animated-fast">
+        <div><h3>Education</h3></div>
+      </li>
+      
+      <li class="animate-box timeline-unverted fadeInUp animated-fast">
+        <div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3 class="timeline-title">Bachelor of Engineering, Computer Engineering</h3>
+            <span class="company">Gujarat Technological University, Gujarat, India: <br>Jan 2017 – Sep 2021</span>
+          </div>
+          <!-- <div class="timeline-body">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div> -->
+        </div>
+      </li>
+      <!-- <li class="timeline-inverted animate-box">
+        <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3 class="timeline-title">Diploma Course</h3>
+            <span class="company">College Name - 1999 - 2001</span>
+          </div>
+          <div class="timeline-body">
+            <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+      </li> -->
+      <!-- <li class="animate-box timeline-unverted">
+        <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3 class="timeline-title">Graduation</h3>
+            <span class="company">College Name - 1994 - 1998</span>
+          </div>
+          <div class="timeline-body">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+      </li> -->
+      </ul>
+  </div>
+
+
+
 <div class="work" id="project">
-  <h3>PROJECTS</h3>
+  <h3 style="margin-bottom: 0px;">PROJECTS</h3>
 
 </div>
 <div class="row">
     <div class="col-3">
     <div class="content" id="gallery">
-     <a href="images/lightbox/Friends3.PNG" data-lightbox="models" data-title="Restaurant Website"><img src="images/lightbox/Friends3.PNG" alt="Avatar" class="image" onclick="lightbox"> </a>
+     <a href="https://rushin-makwana.github.io/Coursera-Assignment/module5-solution/#/" target="_blank"><img src="images/lightbox/Friends3.PNG" alt="Avatar" class="image" onclick="lightbox">
       
-      <a href="https://rushin-makwana.github.io/Coursera-Assignment/module5-solution/#/" target="_blank"><h3 style="color:gold">Restaurant Website</h3></a>
+      <h3 style="color:gold">Restaurant Website </h3></a>
       <p style="color: black; font-family: poppins;">Developed a fully functional and responsive website as a part of  an assignment of the course:
         HTML, CSS and Javascript for web Developers, on coursera.
       </p>
@@ -133,9 +248,9 @@
 </div>
 <div class="col-3">
 <div class="content">
-  <a href="images/lightbox/Price-comparison-sites.jpg" data-lightbox="models" data-title="Price Comparison Site"><img src="images/lightbox/Price-comparison-sites.jpg" alt="Avatar" class="image" onclick="lightbox"> </a>
-  <a href="https://github.com/Rushin-Makwana/Price-Comparison-Site" target="_blank">
-  <h3 style="color:gold">Price Comparison Site</h3></a>
+  <a href="https://github.com/Rushin-Makwana/Price-Comparison-Site" target="_blank"><img src="images/lightbox/Price-comparison-sites.jpg" alt="Avatar" class="image" onclick="lightbox"> 
+  
+  <h3 style="color:gold">Price Comparison Site </h3></a>
   <p style="color: black; font-family: poppins;"> The most optimal tool for quick Comparison of prices of products from various E-commerce website such as Amazon and Flipkart. Python library called BeautifulSoup is used for Web Scraping. </p>
   <!-- <div class="overlay">
     <a href="#" class="icon" title="User Profile">
@@ -148,9 +263,9 @@
 
 <div class="col-3">
 <div class="content">
-  <a href="images/lightbox/Zomato1.PNG" data-lightbox="models" data-title="FoodieBay (Zomato Clone)"><img src="images/lightbox/Zomato1.PNG" alt="Avatar" class="image" > </a>
-  <a href="https://foodiebay.netlify.app" target="_blank">
-  <h3 style="color:gold">FoodieBay </h3></a>
+  <a href="https://foodiebay.netlify.app" target="_blank"><img src="images/lightbox/Zomato1.PNG" alt="Avatar" class="image" >
+
+  <h3 style="text-align: center; color:gold">FoodieBay </h3></a>
   <p style="color: black; font-family: poppins;">Made the web application similar to Zomato, from scratch, which has almost all the functionlities as zomato including finding the restaurant and meal, placing the order and making payment through the given payment gateway.</p>
   <!-- <div class="overlay">
     <a href="#" class="icon" title="User Profile">
@@ -161,8 +276,8 @@
 </div>
 <div class="col-3">
 <div class="content">
-  <a href="images/958-768x591.png" data-lightbox="models" data-title="Dating App"><img src="images/958-768x591.png" alt="Avatar" class="image" > </a>
-  <a href="https://github.com/Rushin-Makwana/DatingApp" target="_blank"><h3 style="color:gold">Dating App</h3></a>
+  <a href="https://github.com/Rushin-Makwana/DatingApp" target="_blank"><img src="images/958-768x591.png" alt="Avatar" class="image" > </a>
+<h3 style=" text-align: center; color:gold">Dating App </h3>
   <p style="color: black; font-family: poppins;">Created a dating app during first month of my internship at Aakash Infomatics. It offers feature such as finding the ideal match, liking the profiles, messaging the user, user login or register and sending asynchronous notification.</p>
   <!-- <div class="overlay">
     <a href="#" class="icon" title="User Profile">
@@ -174,7 +289,7 @@
 
 </div>
 
-<div class="container-fluid certifications"> <h2><center>Check out some of my Certifications</center></h2>
+<div class="container-fluid certifications"> <h2><center style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Check out some of my Certifications</center></h2>
 <!-- Button to Open the Modal -->
 <img src="images/HTML CSS Javascript for web developers_page-0001.jpg" style=" height: 128px; width: 170px ;margin-left:80px; margin-right: 10px" data-bs-toggle="modal" data-bs-target="#myModal">
 
